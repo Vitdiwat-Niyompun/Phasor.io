@@ -195,7 +195,7 @@ export default function CalculatorEngine() {
               
               <div className="flex flex-col gap-6">
                 <div className="flex flex-col">
-                  <span className="text-sm font-medium text-slate-500 mb-1">Inductive ($X_L$)</span>
+                  <span className="text-sm font-medium text-slate-500 mb-1">Inductive (X_L)</span>
                   <div className="flex justify-between items-end mb-2">
                     <span className="text-2xl font-bold text-indigo-700">{XL.toFixed(2)} Ω</span>
                   </div>
@@ -205,7 +205,7 @@ export default function CalculatorEngine() {
                 </div>
 
                 <div className="flex flex-col">
-                  <span className="text-sm font-medium text-slate-500 mb-1">Capacitive ($X_C$)</span>
+                  <span className="text-sm font-medium text-slate-500 mb-1">Capacitive (X_C)</span>
                   <div className="flex justify-between items-end mb-2">
                     <span className="text-2xl font-bold text-amber-600">{XC.toFixed(2)} Ω</span>
                   </div>
